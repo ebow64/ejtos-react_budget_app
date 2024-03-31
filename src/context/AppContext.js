@@ -57,7 +57,8 @@ export const AppReducer = (state, action) => {
                 ...state,
                 budget
             };
-        case 'SET_BUDGET':
+        
+            case 'SET_BUDGET':
             action.type = "DONE";
             state.budget = action.payload;
 
